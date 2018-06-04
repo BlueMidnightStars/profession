@@ -42,7 +42,29 @@
 	color: #000;
 	display: inline-block;
 	text-decoration: none;
+	
 
+
+}
+.head-intro .intro-list .list-item .intro-title span{
+	display: inline-block;
+	border:1px solid #000;
+	border-top: 0;
+	border-left: 0;
+	width: 6px;
+	height: 6px;
+	margin-left: 6px;
+	vertical-align: text-top;
+	margin-top: 7px;
+	transform: rotate(-45deg);
+}
+@keyframes spanname{
+		0% {transform: rotate(-45deg)}
+		100% {transform: rotate(45deg)}
+}
+.head-intro .intro-list .list-item .intro-title:hover span{
+	animation: spanname 0.5s;
+	transform: rotate(45deg)
 }
 .head-intro .intro-list .list-item .drop-down{
 	position: absolute;
@@ -282,10 +304,30 @@
 	line-height: 44px;
 	text-decoration: none;
 }
+
 .start-left .left-list .item .left-title span{
+	display: inline-block;
+	border:1px solid #000;
+	border-top: 0;
+	border-left: 0;
+	width: 6px;
+	height: 6px;
+	margin-top: 16px;
+	transform: rotate(-45deg);
 	float: right;
 	margin-right: 25px;
 }
+.start-left .left-list .item:hover .left-title span{
+	animation: spanname 0.5s;
+	transform: rotate(45deg)
+}
+
+
+
+
+
+
+
 .start-left .left-list .item:hover{
 	background-color: #ffffff;
 }
@@ -512,6 +554,9 @@
 	transform: translateY(-50%);
 	right: 0;
 }
+.card-desc:hover .desc-intro{
+	color: #50bf6e;
+}
 
 .card-text{
 	width: 182px;
@@ -619,6 +664,9 @@
 	margin:0;
 	background-color: #ffffff;
 	text-align: center;
+}
+.career-path-list .list .career-path-item:hover{
+	box-shadow: 1px 1px 5px 4px #9b9b9b;
 }
 .career-path-list .list .career-path-item .item-img{
 	width: 160px;
@@ -751,6 +799,9 @@
 	padding-top: 19px;
 
 
+}
+.knowledge-list .list-line .list-item:hover{
+	box-shadow: 1px 1px 5px 4px #9b9b9b;
 }
 .knowledge-list .list-line .list-item .item-img{
 	width: 55px;
@@ -1016,10 +1067,8 @@
 .tale-left{
 	position: absolute;
 	text-decoration: none;
-	font-size: 18px;
 	width: 20px;
 	height: 40px;
-	line-height: 40px;
 	text-align: center;
 	display: inline-block;
 	color: #ffffff;
@@ -1027,14 +1076,26 @@
 	top: 100px;
 	background-color: #e2e7ea;
 	z-index: 1;
+	padding-right: 3px;
+	padding-top: 9px;
+}
+.tale-left  span{
+	display: inline-block;
+	border:2px solid #000;
+	border-top: 0;
+	border-left: 0;
+	width: 10px;
+	height: 10px;
+	margin-left: 6px;
+	vertical-align: text-top;
+	margin-top: 7px;
+	transform: rotate(135deg);
 }
 .tale-right{
 	position: absolute;
 	text-decoration: none;
-	font-size: 18px;
 	width: 20px;
 	height: 40px;
-	line-height: 40px;
 	text-align: center;
 	display: inline-block;
 	color: #ffffff;
@@ -1042,7 +1103,22 @@
 	top: 100px;
 	background-color: #e2e7ea;
 	z-index: 1;
+	padding-right: 5px;
+	padding-top: 9px;
 }
+.tale-right span{
+	display: inline-block;
+	border:2px solid #000;
+	border-top: 0;
+	border-left: 0;
+	width: 10px;
+	height: 10px;
+	margin-left: 6px;
+	vertical-align: text-top;
+	margin-top: 7px;
+	transform: rotate(-45deg);
+}
+
 .tale-list{
 	display: flex;
 	justify-content: space-between;

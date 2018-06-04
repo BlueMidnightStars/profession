@@ -44,6 +44,26 @@
 	text-decoration: none;
 
 }
+.head-intro .intro-list .list-item .intro-title span{
+	display: inline-block;
+	border:1px solid #000;
+	border-top: 0;
+	border-left: 0;
+	width: 6px;
+	height: 6px;
+	margin-left: 6px;
+	vertical-align: text-top;
+	margin-top: 7px;
+	transform: rotate(-45deg);
+}
+@keyframes spanname{
+		0% {transform: rotate(-45deg)}
+		100% {transform: rotate(45deg)}
+}
+.head-intro .intro-list .list-item .intro-title:hover span{
+	animation: spanname 0.5s;
+	transform: rotate(45deg)
+}
 .head-intro .intro-list .list-item .drop-down{
 	position: absolute;
 	left: 0;
@@ -203,7 +223,7 @@
 	color: #50bf6e;
 }
 .start-section{
-	background-image: url(../image/15.png);
+	background-image: url(../image/member-15.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

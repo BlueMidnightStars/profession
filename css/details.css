@@ -44,6 +44,26 @@
 	text-decoration: none;
 
 }
+.head-intro .intro-list .list-item .intro-title span{
+	display: inline-block;
+	border:1px solid #000;
+	border-top: 0;
+	border-left: 0;
+	width: 6px;
+	height: 6px;
+	margin-left: 6px;
+	vertical-align: text-top;
+	margin-top: 7px;
+	transform: rotate(-45deg);
+}
+@keyframes spanname{
+		0% {transform: rotate(-45deg)}
+		100% {transform: rotate(45deg)}
+}
+.head-intro .intro-list .list-item .intro-title:hover span{
+	animation: spanname 0.5s;
+	transform: rotate(45deg)
+}
 .head-intro .intro-list .list-item .drop-down{
 	position: absolute;
 	left: 0;
@@ -204,7 +224,7 @@
 	color: #50bf6e;
 }
 .front-section{
-	background-image: url(../image/1.jpg);
+	background-image: url(../image/details-1.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -299,11 +319,15 @@
 	padding-left: 20px;
 	text-decoration: none;
 }
+.fixation-list .list-item:hover{
+	background-color: #f4f4f4;
+
+}
 .fixation-list .list-link{
 	width: 200px;
 	height: 240px;
 	display: inline-block;
-	background-image: url(../image/4.png);
+	background-image: url(../image/details-4.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -368,6 +392,7 @@
 	font-size: 0;
 
 }
+
 .newest-list .list-left .item .item-intro .intro-img{
 	display: inline-block;
 	width: 15px;
@@ -381,6 +406,9 @@
 	color: #000;
 
 
+}
+.newest-list .list-left .item .item-intro:hover .intro-title{
+	color: #35b556;
 }
 .newest-list .list-left .item .item-intro .intro-time{
 	font-size: 12px;
@@ -668,25 +696,25 @@
 
 }
 .learn-primer .title{
-	background-image: url(../image/49.png);
+	background-image: url(../image/details-49.png);
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .learn-basics .title{
-	background-image: url(../image/49.png);
+	background-image: url(../image/details-49.png);
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .learn-primary .title{
-	background-image: url(../image/50.png);
+	background-image: url(../image/details-50.png);
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .learn-intermediate .title{
-	background-image: url(../image/51.png);
+	background-image: url(../image/details-51.png);
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1004,49 +1032,6 @@
 	line-height: 50px;
 	text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .footer-sectionm{
