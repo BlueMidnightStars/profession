@@ -39,7 +39,7 @@
 	height: 70px;
 	line-height: 70px;
 	font-size: 15px;
-	color: #000;
+	color: #6c6c6c;
 	display: inline-block;
 	text-decoration: none;
 
@@ -54,10 +54,10 @@
 	margin-left: 6px;
 	vertical-align: text-top;
 	margin-top: 7px;
-	transform: rotate(-45deg);
+	transform: rotate(-135deg);
 }
 @keyframes spanname{
-		0% {transform: rotate(-45deg)}
+		0% {transform: rotate(-135deg)}
 		100% {transform: rotate(45deg)}
 }
 .head-intro .intro-list .list-item .intro-title:hover span{
@@ -92,7 +92,7 @@
 	text-decoration: none;
 	line-height: 35px;
 	margin-left: 11px;
-	color: #000;
+	color: #414141;
 	font-size: 12px;
 	vertical-align: top;
 
@@ -113,10 +113,11 @@
 	vertical-align: top;
 	margin-top: 20px;
 	font-size: 0;
+	border:1px solid #e4e4e4;
 }
 .head-text .text{
 	background-color: #ffffff;
-	border:1px solid #666666;
+	border:none;
 	font-size: 12px;
 	padding-left: 10px;
 	line-height: 30px;
@@ -136,7 +137,7 @@
 	padding-top: 5px;
 	text-align: center;
 	vertical-align: top;
-	border: 1px solid #666666;
+	border-left: 1px solid #e4e4e4;
 }
 .head-text .text-img .img{
 	width: 20px;
@@ -318,7 +319,7 @@
 }
 .price-desc{
 	width: 395px;
-	color: #000;
+	color: #636363;
 	display: block;
 	font-size: 13px;
 	margin-bottom: 48px;
@@ -379,11 +380,13 @@
 	font-size: 36px;
 	color: #000;
 	line-height: 36px;
+	position: relative;
 
 }
 .price-list .list-line .item .item-intro .intro-title span{
 	font-size: 13px;
 	color: #666666;
+	position: absolute;
 }
 .price-list .list-line .item .item-intro .intro-desc{
 	font-size: 13px;
@@ -427,11 +430,15 @@
 	font-size: 14px;
 
 }
-.price-list .list-line .item .item-footer{
+.price-list .list-line .item .item-intro .intro-link:hover{
+	background-color: #35b558;
+	color: #ffffff;
+}
+.price-list .list-line .item .item-base{
 	background-color: #fafafa;
 
 }
-.price-list .list-line .item .item-footer .footer-title{
+.price-list .list-line .item .item-base .base-title{
 	font-size: 13px;
 	height: 48px;
 	border-top: 1px solid #f1f1f1;
@@ -442,7 +449,7 @@
 	padding-left: 20px;
 
 }
-.price-list .list-line .item .item-footer .footer-intro{
+.price-list .list-line .item .item-base .base-intro{
 	border-top: 1px solid #f1f1f1;
 	border-bottom: 1px solid #f1f1f1;
 	width: 320px;
@@ -452,13 +459,13 @@
 
 
 }
-.price-list .list-line .item .item-footer .footer-intro .intro-title{
+.price-list .list-line .item .item-base .base-intro .intro-title{
 	color: #666666;
 	font-size: 13px;
 	line-height: 50px;
 
 }
-.price-list .list-line .item .item-footer .footer-intro .intro-desc{
+.price-list .list-line .item .item-base .base-intro .intro-desc{
 	color: #000;
 	font-size:12px;
 	line-height: 20px;
