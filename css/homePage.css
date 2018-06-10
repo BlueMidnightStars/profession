@@ -42,13 +42,14 @@
 	color: #606060;
 	display: inline-block;
 	text-decoration: none;
+	font-weight: 400;	
 	
 
 
 }
 .head-intro .intro-list .list-item .intro-title span{
 	display: inline-block;
-	border:1px solid #b0b0b0;
+	border:2px solid #b0b0b0;
 	border-top: 0;
 	border-left: 0;
 	width: 6px;
@@ -56,15 +57,15 @@
 	margin-left: 6px;
 	vertical-align: text-top;
 	margin-top: 7px;
-	transform: rotate(-135deg);
+	transform: rotate(45deg);
 }
 @keyframes spanname{
-		0% {transform: rotate(-135deg)}
-		100% {transform: rotate(45deg)}
+		0% {transform: rotate(45deg)}
+		100% {transform: rotate(-135deg)}
 }
 .head-intro .intro-list .list-item .intro-title:hover span{
-	animation: spanname 0.3s;
-	transform: rotate(45deg)
+	animation: spanname 0.4s;
+	transform: rotate(-135deg)
 }
 .head-intro .intro-list .list-item .drop-down{
 	position: absolute;
@@ -317,13 +318,9 @@
 	width: 6px;
 	height: 6px;
 	margin-top: 16px;
-	transform: rotate(-135deg);
+	transform: rotate(-45deg);
 	float: right;
 	margin-right: 25px;
-}
-.start-left .left-list .item:hover .left-title span{
-	animation: spanname 0.5s;
-	transform: rotate(45deg)
 }
 
 
@@ -360,7 +357,7 @@
 	line-height: 20px;
 	color: #ffffff;
 	text-align: center;
-	background-color: #666666;
+	background-color: #a0aeb9;
 	font-size: 12px;
 	margin-left: 21px;
 
@@ -371,7 +368,7 @@
 	height: 1px;
 	display: inline-block;
 	content: '';
-	background-color: #666666;
+	background-color: #a0aeb9;
 	vertical-align: top;
 
 }
@@ -485,7 +482,7 @@
 	font-size: 12px;
 	color: #000;
 	line-height: 43px;
-	margin-left: 21px;
+	margin-left: 12px;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -543,7 +540,7 @@
 	display: inline-block;
 	width: 17px;
 	height: 15px;
-	margin:14.5px  15px 14.5px 11px; 
+	margin:14px  15px 14px 11px; 
 	vertical-align: top;
 }
 .card-desc .desc-intro{
@@ -577,6 +574,8 @@
 	font-size: 12px;
 	vertical-align: top;
 	line-height: 23px;
+	padding-left: 10px;
+
 
 	
 
@@ -650,6 +649,7 @@
 	line-height: 20px;
 	display: inline-block;
 	line-height: 25px;
+	font-weight: 400;
 
 }
 .career-path-link{
@@ -685,12 +685,14 @@
 .career-path-list .list .career-path-item .item-img{
 	width: 160px;
 	height: 96px;
+	margin-top: 14px;
 
 }
 .career-path-list .list .career-path-item .item-title{
 	font-size: 12px;
-	color: #000;
+	color: #4e4e4e;
 	line-height: 40px;
+	font-weight: 400;
 }
 
 
@@ -785,17 +787,18 @@
 }
 .knowledge-container .knowledge-title{
 	font-size: 18px;
-	color: #000;
+	color: #4e4e4e;
 	display: inline-block;
 	margin-bottom: 18px;
 	line-height: 25px;
+	font-weight: 400;
 
 }
 .knowledge-container .knowledge-link{
 	text-decoration: none;
 	float: right;
 	font-size: 12px;
-	color: #000;
+	color: #4e4e4e;
 	line-height: 25px;
 
 
@@ -811,6 +814,9 @@
 	justify-content: space-between;
 	margin-bottom: 10px;
 }
+.knowledge-list .list-line:last-child{
+	margin-bottom: 0;
+}
 .knowledge-list .list-line .list-item{
 	width: 134px;
 	height: 130px;
@@ -818,6 +824,7 @@
 	background-color: #ffffff;
 	text-align: center;
 	padding-top: 19px;
+	font-size: 0;
 
 
 }
@@ -827,18 +834,22 @@
 .knowledge-list .list-line .list-item .item-img{
 	width: 55px;
 	height: 46px;
+	margin-bottom: 18px;
 
 }
 .knowledge-list .list-line .list-item .item-title{
 	font-size: 12px;
-	color: #000;
-	line-height: 20px;
+	color: #4e4e4e;
+	line-height: 14px;
+	font-weight: 400;
+
 
 }
 .knowledge-list .list-line .list-item .item-desc{
 	font-size: 12px;
 	color: #35b558;
 	line-height: 20px;
+	font-weight: 400;
 
 }
 .service-section{
@@ -854,6 +865,7 @@
 	font-size: 18px;
 	color: #000;
 	margin-bottom: 18px;
+	font-weight: 400;
 
 }
 .service-list{
@@ -890,26 +902,28 @@
 	margin-top: 30px;
 	font-size: 16px;
 	color: #6bbb79;
-	margin-bottom: 21px;
+	margin-bottom: 18px;
+	font-weight: 500;
 
 }
 .service-list .list-line .list-item .item-title span{
 	display: block;
 	font-size: 12px;
-	color: #666666;
+	color: #cfcfcf;
+	font-weight: 400;
 }
 .service-list .list-line .list-item .item-intro{
 	font-size: 13px;
-	color: #000;
-	width: 238px;
+	color: #333333;
 	display: block;
 	margin-bottom: 28px;	
 	width: 250px;
+	font-weight: 450;
 
 
 }
 .service-list .list-line .list-item .item-link-look{
-	border:1px solid #999999;
+	border:1px solid #e4e4e4;
 	width: 85px;
 	height: 32px;
 	display: inline-block;
@@ -917,11 +931,12 @@
 	line-height: 32px;
 	font-size: 13px;
 	margin-right: 9px;
-	color: #666666;
+	color: #7a7a7a;
+	font-weight: 500;
 
 }
 .service-list .list-line .list-item .item-link-apply{
-	border:1px solid #999999;
+	border:1px solid #e4e4e4;
 	width: 85px;
 	height: 32px;
 	display: inline-block;
@@ -929,19 +944,20 @@
 	line-height: 32px;
 	font-size: 13px;
 	margin-left: 9px;
-	color: #666666;
+	color: #7a7a7a;
+	font-weight: 500;
 	
 }
 .service-list .list-line .list-item .item-link-looks{
-	border:1px solid #999999;
+	border:1px solid #e4e4e4;
 	width: 85px;
 	height: 32px;
 	display: inline-block;
 	text-decoration: none;
 	line-height: 32px;
 	font-size: 13px;
-	color: #666666;
-
+	color: #7a7a7a;
+	font-weight: 400;	
 }
 .service-list .list-line .list-item .item-link-look:hover{
 	border-color: #6bbb79;
@@ -975,14 +991,16 @@
 	font-size: 16px;
 	display: inline-block;
 	line-height: 20px;
-	color: #000;
+	color: #333333;
+	font-weight: 400;
 
 }
 .card-left .left-link{
 	font-size: 12px;
-	color: #000;
+	color: #333333;
 	float: right;
 	text-decoration: none;
+	font-weight: 400;
 }
 .card-left  .left-list:before{
 	content: '';
@@ -1009,7 +1027,7 @@
 }
 .card-left  .left-list .list-item .item-title{
 	font-size: 12px;
-	color: #000;
+	color: #333333;
 	line-height: 26px;
 	display: inline-block;
 	width: 424px;
@@ -1037,19 +1055,23 @@
 	background-color: #ffffff;
 	padding: 20px;
 	display: inline-block;
+	padding-bottom: 22px;
+	
 }
 .card-right .right-title{
 	font-size: 16px;
 	display: inline-block;
 	line-height: 20px;
-	color: #000;
+	color: #333333;
+	font-weight: 400;
 
 }
 .card-right .right-link{
 	font-size: 12px;
-	color: #000;
+	color: #333333;
 	float: right;
 	text-decoration: none;
+	font-weight: 400;
 }
 .card-right  .right-list:before{
 	content: '';
@@ -1076,7 +1098,7 @@
 }
 .card-right  .right-list .list-item .item-title{
 	font-size: 12px;
-	color: #000;
+	color: #333333;
 	line-height: 26px;
 	display: inline-block;
 	width: 424px;
@@ -1188,6 +1210,7 @@
 	font-size: 12px;
 	margin-top: 8px;
 	margin-bottom: 12px;
+	font-weight: 400;
 
 }
 .tale-list .list-item:nth-child(2) .item-title{
@@ -1198,8 +1221,8 @@
 }
 .tale-list .list-item .item-desc{
 	font-size: 12px;
-	color: #000;
-	line-height: 15px;
+	color: #333333;
+	line-height: 18px;
 	width: 265px;
 	position: relative;
 	text-align: left;
@@ -1246,7 +1269,7 @@
 .tale-list .list-item .item-figure .figure-title{
 	display: inline-block;
 	font-size: 12px;
-	color: #000;
+	color: #333333;
 	line-height: 18px;
 	margin-top: 16px;
 	text-align: left;
@@ -1267,10 +1290,11 @@
 }
 .teamwork-title{
 	font-size: 18px;
-	color: #000;
+	color: #333333;
 	margin-bottom: 20px;
 	display: inline-block;
 	vertical-align: top;
+	font-weight: 400;
 
 }
 .teamwork-link{
@@ -1317,7 +1341,7 @@
 }
 .footer-title .title{
 	font-size: 24.26px;
-	color: #000;
+	color: #333333;
 	display: inline-block;
 	vertical-align: top;
 	line-height: 50px;
@@ -1352,7 +1376,7 @@
 .footer-link-list .link{
 	display: inline-block;
 	text-decoration: none;
-	color: #999999;
+	color: #7a7a7a;
 	margin-left: 12px;
 	margin-right: 12px;
 	font-size: 13px;
