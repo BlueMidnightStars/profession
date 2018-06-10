@@ -54,10 +54,10 @@
 	margin-left: 6px;
 	vertical-align: text-top;
 	margin-top: 7px;
-	transform: rotate(-45deg);
+	transform: rotate(-135deg);
 }
 @keyframes spanname{
-		0% {transform: rotate(-45deg)}
+		0% {transform: rotate(-135deg)}
 		100% {transform: rotate(45deg)}
 }
 .head-intro .intro-list .list-item .intro-title:hover span{
@@ -1041,8 +1041,14 @@
 	padding-top: 16px;
 
 }
+@keyframes shade{
+	1% {box-shadow: 0px 0px 3px 0.5px #d4d4d4}
+	50% {box-shadow: 0.5px 0.5px 4px 0.8px #d4d4d4}
+	100% {box-shadow: 1px 1px 5px 1px #d4d4d4}
+}
 .become-list .list-line .item:hover{
-	box-shadow: 1px 1px 3px #888888;
+	box-shadow: 1px 1px 5px 1px #d4d4d4;
+	animation: shade 1s;
 }
 .become-list .list-line .item .label{
 	display: inline-block;
@@ -1457,7 +1463,7 @@
 }
 .issue-list .item .item-title{
 	font-size: 12px;
-	color: #000;
+	color: #333;
 	line-height: 16px;
 	position: relative;
 	margin-left: 50px;
@@ -1476,7 +1482,7 @@
 }
 .issue-list .item .item-desc{
 	font-size: 12px;
-	color: #000;
+	color: #666;
 	line-height: 16px;
 	position: relative;
 	margin-left: 50px;

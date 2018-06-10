@@ -343,6 +343,16 @@
 	font-size: 0;
 	display: none;
 }
+.start-left .left-list .item .rise-list:before{
+	content: '';
+	display: inline-block;
+	background-color: #e8e8e8;
+	width: 790px;
+	height: 1px;
+	position: absolute;
+	top: 0;
+
+}
 .start-left .left-list .item:hover .rise-list{
 	display: inline-block;
 }
@@ -631,9 +641,7 @@
 	margin:0;
 
 }
-.advertising-container .advertising-img:hover{
-	box-shadow: 1px 1px 5px 1px #999999;
-}
+
 .career-path-section{
 	background-color: #f4f4f4;
 }
@@ -679,8 +687,14 @@
 	background-color: #ffffff;
 	text-align: center;
 }
+@keyframes shade{
+	1% {box-shadow: 0px 0px 3px 0.5px #d4d4d4}
+	50% {box-shadow: 0.5px 0.5px 4px 0.8px #d4d4d4}
+	100% {box-shadow: 1px 1px 5px 1px #d4d4d4}
+}
 .career-path-list .list .career-path-item:hover{
-	box-shadow: 1px 1px 5px 1px #999999;
+	box-shadow: 1px 1px 5px 1px #d4d4d4;
+	animation: shade 1s;
 }
 .career-path-list .list .career-path-item .item-img{
 	width: 160px;
@@ -829,7 +843,8 @@
 
 }
 .knowledge-list .list-line .list-item:hover{
-	box-shadow: 1px 1px 5px 1px #999999;
+	box-shadow: 1px 1px 5px 1px #d4d4d4;
+	animation: shade 1s;
 }
 .knowledge-list .list-line .list-item .item-img{
 	width: 55px;

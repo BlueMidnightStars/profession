@@ -456,6 +456,7 @@
 	line-height: 48px;
 	text-align: left;
 	padding-left: 20px;
+	color: #838383;
 
 }
 .price-list .list-line .item .item-base .base-intro{
@@ -468,6 +469,9 @@
 
 
 }
+.price-list .list-line .item .item-base .base-intro:last-child{
+	border-bottom: 0;
+}
 .price-list .list-line .item .item-base .base-intro .intro-title{
 	color: #666666;
 	font-size: 13px;
@@ -476,7 +480,7 @@
 
 }
 .price-list .list-line .item .item-base .base-intro .intro-desc{
-	color: #4e4e4e;
+	color: #838383;
 	font-size:12px;
 	line-height: 20px;
 	font-weight: 500;
@@ -694,14 +698,14 @@
 }
 .feature-list .item .item-intro .intro-title{
 	font-size: 16px;
-	color: #666666;
+	color: #333;
 	margin-bottom: 16px;
 	line-height: 18px;
 	    font-weight: 400;
 }
 .feature-list .item .item-intro .intro-desc{
 	font-size: 12px;
-	color: #666666;
+	color: #666;
 	line-height:22px;
 	    font-weight: 400;
 	
